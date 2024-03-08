@@ -1,0 +1,15 @@
+.nombre_clase {
+    color: red;
+}
+
+.nombre_clase .titulo_1 {
+    background-color:  blue;
+}
+
+.nombre_clase h1 {
+    background-color: blue;
+}
+
+.letra_grande { 
+    font-size: 50px;
+}
