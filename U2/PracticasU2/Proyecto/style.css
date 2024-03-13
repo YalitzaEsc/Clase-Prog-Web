@@ -13,6 +13,7 @@
     color: #E1AFD1;
     display: inline-block;
     position: relative;
+    left: 180px;
 }
 
 #logo-2 {
@@ -22,6 +23,7 @@
     color: #7469B6;
     display: inline-block;
     position: relative;
+    left: 180px;
 }
 
 #imagen-logo {
@@ -29,6 +31,7 @@
     width: 50px; 
     height: 40px;
     position: relative;
+    left: 180px;
 }
 
 #menu {
@@ -48,11 +51,12 @@ ul {
 ul li {
     display: inline-block;
     position: relative;
+    
 }
 
 ul li a {
     display: block;
-    padding: 20px 25px;
+    padding: 20px 15px;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
@@ -63,6 +67,7 @@ ul li a {
 
 ul li ul.dropdown li {
     display: block;
+    
 }
 
 ul li ul.dropdown {
@@ -70,23 +75,17 @@ ul li ul.dropdown {
     position: absolute;
     z-index: 999;
     display: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul li a:hover {
-    background-color: #E1AFD1;
+    background-color: #FFE6E6;
     color: white;
 
 }
 
 ul li:hover ul.dropdown {
     display: block;
-}
-
-#icono-menu {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
 }
 
