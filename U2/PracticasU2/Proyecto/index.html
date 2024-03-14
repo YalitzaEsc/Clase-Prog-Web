@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ListenScripter</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    
-    <div id = "cabecera">
 
-            <img src = "../Imágenes/type.png" alt = "logo" id = "imagen-logo">
-            <p id = "logo-1" style = "font-size: 2rem;">Listen</p>
-            <p id = "logo-2" style = "font-size: 2rem;">Scripter</p>
+    <header>
+        <div class="logo-container">
+            <img src="../Imágenes/headphones.png" alt="logo" id="imagen-logo">
+            <p class="logo-1" style="font-size: 2rem;">Listen</p>
+            <p class="logo-2" style="font-size: 2rem;">Scripter</p>
+        </div>
 
-            <div id = "menu">
-                <ul>
-                    <li><a href = "#">Inicio</a></li>
-                    <li>
-                        <a href = "#">Selecciona un nivel</a>
-                        <ul class = "dropdown">
-                        <li><a href = "#">A1 – Principiante</a></li>
-                        <li><a href = "#">A2 – Elemental </a></li>
-                        <li><a href = "#">B1 – Intermedio</a></li>
-                        <li><a href= "#">B2 – Intermedio alto</a></li>
-                        <li><a href = "#">C1 – Avanzado</a></li>
-                        <li><a href = "#">C2 – Proficiente</a></li>
-                    </li>
-                    </ul>
-                    <li><a href = "#">Sobre nosotros</a></li>
-                    <li><a href = "#">Contacto</a></li>
-                </ul>
-            </div>
-    
+        <div class="menu-container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Choose your level ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="#">A1 – Beginner</a></li>
+                        <li><a href="#">A2 – Elementary </a></li>
+                        <li><a href="#">B1 – Intermediate</a></li>
+                        <li><a href="#">B2 – High Intermediate</a></li>
+                        <li><a href="#">C1 – Advanced</a></li>
+                        <li><a href="#">C2 – Proficient</a></li>
+                </li>
+            </ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class =  "contenedor-imagen">
+        <img src = "../Imágenes/listening.png" alt = "imagen página principal" class = "imagen-principal">
     </div>
-    
 
+    <div class = "contenedor-texto-inicio">
+
+        <p class = "texto-inicio">Ready to sharpen your ears and</p><br>
+        <p class = "texto-inicio">enhance your language proficiency?</p>
+        <button class = "boton-comenzar-sombra">Let's get started!</button>
+        <button class = "boton-comenzar">Let's get started!</button>
+    </div>
+
+   
 </body>
+
 </html>
