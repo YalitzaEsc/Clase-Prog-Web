@@ -60,25 +60,29 @@ ul li a {
     margin-right: 10px;
     text-decoration: none;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: "Roboto Condensed", sans-serif;
     color: black;
+    
 }
 
 ul li a:hover {
     background-color: #FF5671;
     color: white;
     width: 100%;
+    
 }
 
 ul li .dropdown li {
     display: block;
     z-index: 1;
+    
 }
 
 ul li .dropdown {
     position: absolute;
     display: none;
+    
 
 }
 
@@ -87,6 +91,7 @@ ul li:hover .dropdown {
     width: 100%;
     background-color: #FFE6E6;
     border-radius: 12px;
+
 }
 
 /* Main Start */
@@ -104,8 +109,8 @@ main {
 }
 
 .imagen-principal {
-    width: 800px;
-    height: 460px;
+    width: 85%;
+    margin-top: 50px;
     object-fit: cover;
 }
 
@@ -113,14 +118,14 @@ main {
     width: 50%;
     height: auto;
     float: left;
-    text-align: center;
+    text-align: right;
 }
 
 .contenedor-texto-inicio {
     width: 50%;
     float: right;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 105px;
 }
 
 .boton-comenzar {
