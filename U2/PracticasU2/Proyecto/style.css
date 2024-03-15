@@ -110,14 +110,14 @@ main {
 }
 
 .contenedor-imagen {
-    width: 60%;
+    width: 50%;
     height: auto;
     float: left;
     text-align: center;
 }
 
 .contenedor-texto-inicio {
-    width: 40%;
+    width: 50%;
     float: right;
     text-align: center;
     margin-top: 80px;
